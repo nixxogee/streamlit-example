@@ -38,9 +38,32 @@ with st.echo(code_location='below'):
         .encode(x='x:Q', y='y:Q'))
 
     st.write("""<style> 
-        .css-ffhzg2  { 
-            background-color: #FFC2B5;
-            }
+
+            
+            .css-ffhzg2 {
+    background: linear-gradient(270deg, #094883, #4b0f94);
+    background-size: 400% 400%;
+
+    -webkit-animation: gradientbackground 20s ease infinite;
+    -moz-animation: gradientbackground 20s ease infinite;
+    animation: gradientbackground 20s ease infinite;
+}
+
+@-webkit-keyframes gradientbackground {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes gradientbackground {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes gradientbackground {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
             
         .css-1hynsf2 { 
             filter: drop-shadow(5px 5px 28px #BC2E2E);
