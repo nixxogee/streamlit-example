@@ -14,9 +14,8 @@ import pandas as pd
 import streamlit as st
 
 
-def main(): 
-utl.local_css("nixxogee/streamlit-example/style.css")
-
+def remote_css(url):
+    st.markdown(f'<link href="https://github.com/nixxogee/streamlit-example/blob/master/style.css" rel="stylesheet">', unsafe_allow_html=True)
 
 with st.echo(code_location='below'):
     total_points = st.slider("Number of points in spiral", 1, 5000, 2000)
