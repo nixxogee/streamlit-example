@@ -46,10 +46,7 @@ with st.echo(code_location='below'):
             
         .css-1hynsf2 { 
             filter: drop-shadow(5px 5px 28px #BC2E2E);
-            }
-            
-         .css-1hynsf2:hover { 
-            filter: drop-shadow(5px 5px 28px #fff);
+            width: 100%;
             }
             
          .css-1hynsf2:hover { 
