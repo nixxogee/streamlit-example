@@ -15,7 +15,6 @@ forums](https://discuss.streamlit.io).
 In the meantime, below is an example of what you can do with just a few lines of code:
 """
 
-st.markdown("<h1 style='font-size:5rem'</h1>", unsafe_html_allow=True)
 
 
 with st.echo(code_location='below'):
