@@ -41,7 +41,11 @@ with st.echo(code_location='below'):
     
        
         .css-ffhzg2  { 
-            background-color: #FFC2B5;
+                background-color: #FFC2B5;
+            }
+            
+            .css-1hynsf2 { 
+                filter: drop-shadow(5px 5px 28px #BC2E2E);
             }
             
             </style>""", 
