@@ -38,10 +38,14 @@ with st.echo(code_location='below'):
         .encode(x='x:Q', y='y:Q'))
 
     st.write("""<style> 
-        @import url('https://fonts.googleapis.com/css2?family=Fascinate');
+    
         html, body, [class*="css"]  {
-        font-family: 'Fascinate', cursive;
-        font-size: 1rem;
+        font-size: 3rem;
         }
+        
+        body { 
+            background-color: red;
+            }
+        
             </style>""", 
         unsafe_allow_html=True)
