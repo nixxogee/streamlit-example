@@ -14,13 +14,7 @@ import pandas as pd
 import streamlit as st
 
 
-def local_css(file_name):
-    with open(file_name) as f:
-        st.markdown(f'<style>{f.read()}</style>', unsafe_allow_html=True)
 
-
-def remote_css(url):
-    st.markdown(f'<link href="{https://github.com/nixxogee/streamlit-example/blob/master/style.css}" rel="stylesheet">', unsafe_allow_html=True)
 
 with st.echo(code_location='below'):
     total_points = st.slider("Number of points in spiral", 1, 5000, 2000)
@@ -42,3 +36,12 @@ with st.echo(code_location='below'):
     st.altair_chart(alt.Chart(pd.DataFrame(data), height=500, width=500)
         .mark_circle(color='#0068c9', opacity=0.5)
         .encode(x='x:Q', y='y:Q'))
+
+    st.write("""<style> 
+        @import url('https://fonts.googleapis.com/css2?family=Fascinate');
+        html, body, [class*="css"]  {
+        font-family: 'Fascinate', cursive;
+        font-size: 1rem;
+        }
+            </style>""", 
+        unsafe_allow_html=True)
