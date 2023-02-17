@@ -14,13 +14,8 @@ import pandas as pd
 import streamlit as st
 
 
-def local_css(file_name):
-    with open(file_name) as f:
-        st.markdown("""<style> .stAppEmbeddingId-rq8lw530yflm{background-color: ##FF0000} </style>""", unsafe_allow_html=True)
-
-
-local_css("style.css")
-
+def main(): 
+utl.local_css("nixxogee/streamlit-example/style.css")
 
 
 with st.echo(code_location='below'):
