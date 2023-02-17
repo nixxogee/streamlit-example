@@ -45,6 +45,7 @@ with st.echo(code_location='below'):
         .css-1hynsf2 { 
             filter: drop-shadow(5px 5px 28px #BC2E2E);
             width: 100%;
+            corner-radius: 25px;
             }
             
         .css-1hynsf2:hover { 
@@ -56,7 +57,7 @@ with st.echo(code_location='below'):
             font-size: 2rem;
             }
             
-        stSlider {
+        .stSlider {
             width: auto;
             outline: 5px;
             outline: groove;
