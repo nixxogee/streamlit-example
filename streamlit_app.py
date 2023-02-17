@@ -16,7 +16,7 @@ import streamlit as st
 
 def local_css(file_name):
     with open(file_name) as f:
-        st.markdown("""<style> .body{background-color: ##FF0000} </style>""", unsafe_allow_html=True)
+        st.markdown("""<style> .ffhzg2{background-color: ##FF0000} </style>""", unsafe_allow_html=True)
 
 
 local_css("style.css")
