@@ -41,12 +41,27 @@ with st.echo(code_location='below'):
     
        
         .css-ffhzg2  { 
-                background-color: #FFC2B5;
+            background-color: #FFC2B5;
             }
             
-            .css-1hynsf2 { 
-                filter: drop-shadow(5px 5px 28px #BC2E2E);
+        .css-1hynsf2 { 
+            filter: drop-shadow(5px 5px 28px #BC2E2E);
             }
+            
+         .css-1hynsf2:hover { 
+            filter: drop-shadow(5px 5px 28px #fff);
+            }
+            
+         .css-1hynsf2:hover { 
+            filter: drop-shadow(5px 5px 28px #fff);
+            }
+            
+            p { 
+            color: black;
+            font-size: 2rem;
+            }
+            
+    
             
             </style>""", 
         unsafe_allow_html=True)
