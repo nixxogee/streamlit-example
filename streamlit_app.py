@@ -65,7 +65,7 @@ with st.echo(code_location='below'):
             padding-inline: 25px;            
             }
             
-         .cavas-marks { 
+         .marks { 
             border-radius: 25px;
             }
             
