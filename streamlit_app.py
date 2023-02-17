@@ -47,7 +47,7 @@ with st.echo(code_location='below'):
             background-color: red;
             }
         
-        ffhzg2  { 
+        css-ffhzg2  { 
             background-color: red;
             }
             
