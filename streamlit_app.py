@@ -40,12 +40,18 @@ with st.echo(code_location='below'):
     st.write("""<style> 
     
         html, body, [class*="css"]  {
-        font-size: 3rem;
+        font-size: 2rem;
         }
         
         body { 
             background-color: red;
             }
+        
+        ffhzg2  { 
+            background-color: red;
+            }
+            
+            
         
             </style>""", 
         unsafe_allow_html=True)
