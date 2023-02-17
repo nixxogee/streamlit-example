@@ -38,8 +38,6 @@ with st.echo(code_location='below'):
         .encode(x='x:Q', y='y:Q'))
 
     st.write("""<style> 
-    
-       
         .css-ffhzg2  { 
             background-color: #FFC2B5;
             }
@@ -49,18 +47,21 @@ with st.echo(code_location='below'):
             width: 100%;
             }
             
-         .css-1hynsf2:hover { 
+        .css-1hynsf2:hover { 
             filter: drop-shadow(5px 5px 28px #fff);
             }
             
-            p { 
+        p { 
             color: black;
             font-size: 2rem;
             }
             
-            stSlider {
+        stSlider {
+            width: auto;
             outline: 5px;
+            outline: groove;
+            outline-width: 5px;
+            padding-inline: 25px;            
             }
             
-            </style>""", 
-        unsafe_allow_html=True)
+</style>""", unsafe_allow_html=True)
