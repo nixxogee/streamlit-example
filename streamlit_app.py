@@ -58,7 +58,9 @@ with st.echo(code_location='below'):
             font-size: 2rem;
             }
             
-    
+            stSlider {
+            outline: 5px;
+            }
             
             </style>""", 
         unsafe_allow_html=True)
