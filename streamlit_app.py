@@ -39,19 +39,10 @@ with st.echo(code_location='below'):
 
     st.write("""<style> 
     
-        html, body, [class*="css"]  {
-        font-size: 2rem;
-        }
-        
-        body { 
-            background-color: red;
-            }
-        
+       
         .css-ffhzg2  { 
-            background-color: red;
+            background-color: #FFC2B5;
             }
             
-            
-        
             </style>""", 
         unsafe_allow_html=True)
